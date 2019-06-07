@@ -1,0 +1,41 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>fa-home</title>
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<script defer src="/js/all.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</head>
+<body class="body11">
+
+  <!--Navigation bar-->
+<script type="text/javascript" src="js/my.js"></script>
+<div id="nav-placeholder">
+</div>
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+
+<br/>
+<br/>
+<br/>
+
+<!-----------------------------------page content ---------------------------------------------------->
+
+
+<!-----------------------------------page content end ---------------------------------------------------->
+
+<div id="footer-placeholder">
+</div>
+<script>
+$(function(){
+  $("#footer-placeholder").load("footer.html");
+});
+</script>
+</body>
+</html>
