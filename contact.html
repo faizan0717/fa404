@@ -2,16 +2,14 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>fa-contact</title>
-<link rel="stylesheet" href="/css/mycss.css">
 <link rel="stylesheet" href="/css/bootstrap.min.css">
-<link rel="stylesheet" href="/css/dataTables.min.css">
+<link rel="stylesheet" href="/css/style.css">
+<script defer src="/js/all.js"></script>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<script src="js/jquery.min.js"></script>
+<script src="/js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/dataTables.min.js"></script>
 </head>
 <body class="body11">
-
   <!--Navigation bar-->
 <script type="text/javascript" src="js/my.js"></script>
 <div id="nav-placeholder">
@@ -22,9 +20,19 @@ $(function(){
 });
 </script>
 <!--end of Navigation bar-->
-
-<h1>contact </h1>
-
+<br/>
+<br/><center>
+<h1>Contact Me</h1>
+<h3>&nbsp;&nbsp;&nbsp;I would love to here from you and help you.</h3><br></center>
+<div class="container">
+      <form action="/php/mail.php" method="POST">
+        <i class="fas fa-user"></i>&nbsp;Name<br><input name="name" type="text" required><br>
+        <i class="fas fa-envelope"></i>&nbsp;E-mail<br><input name="email" type="email" required><br>
+        <i class="fas fa-comments"></i>&nbsp;Message<br><textarea name="msg" rows="4" cols="50" required>
+          </textarea>
+        <input type="submit" name="Submit"><input type="reset" name="Reset">
+      </form>
+</div>
 <div id="footer-placeholder">
 </div>
 <script>
