@@ -13,4 +13,5 @@ if( $retval == true ) {
          }else {
             echo "<script type='text/javascript'>alert('Message could not be sent...');</script>";
          }
+header('Location: /contact.html');
  ?>
