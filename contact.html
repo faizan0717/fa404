@@ -25,7 +25,7 @@ $(function(){
 <h1>Contact Me</h1>
 <h3>&nbsp;&nbsp;&nbsp;I would love to here from you and help you.</h3><br></center>
 <div class="container">
-      <form action="/php/mail.php" method="POST">
+      <form name="contact" method="POST" data-netlify="true">
         <i class="fas fa-user"></i>&nbsp;Name<br><input name="name" type="text" required><br>
         <i class="fas fa-envelope"></i>&nbsp;E-mail<br><input name="email" type="email" required><br>
         <i class="fas fa-comments"></i>&nbsp;Message<br><textarea name="msg" rows="4" cols="50" required>
